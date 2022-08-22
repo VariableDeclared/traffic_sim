@@ -51,7 +51,10 @@ class Carriage(object):
 
 class Car(Carriage):
     engine = PetrolEngine(FuelTypes.PETROL)
+    laden_weight_t = 0
+    unladen_weight_t = 0
     def __init__(self, fuel_type) -> None:
+        super.__init__()
 
     def compute_consumption():
         pass
